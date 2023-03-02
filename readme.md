@@ -12,7 +12,7 @@ pip -r requirements.txt
 
 ## Contents
 - ### Data Mining lab practices
-    - preprocessing of data: based on various csv dataset files, practices focus on these tasks  (folder: data_preprocess)
+    - [Preprocessing of data](https://github.com/dandi0220/data-science-portfolio/blob/main/data_preprocess/Lab02_V2.ipynb): based on various csv dataset files, practices focus on these tasks
         - handling missing values 
         - handling noisy data (outliers and duplicate data) 
         - data normalisation 
@@ -21,28 +21,29 @@ pip -r requirements.txt
         - discretisation
         - principal component analysis
 
-    - Data exploration and data visualisation: 
+    - [Data exploration and data visualisation](https://github.com/dandi0220/data-science-portfolio/blob/main/data_vis/Lab03.ipynb): 
         - pre-processing features of the dataset
         - data summarization
-        - data visualization: table, histograms, pie charts, box plots, scatter plots, distance matrices (folder: data_vis) 
+        - data visualization: table, histograms, pie charts, box plots, scatter plots, distance matrices
 
-    - Data Warehousing and On-line Analytical Processing (OLAP), more specifically with the concepts of data cubes, data cube measures, typical OLAP operations, and data cube computation (folder:data_warehouse)
+    - [Data Warehousing and On-line Analytical Processing (OLAP)](https://github.com/dandi0220/data-science-portfolio/blob/main/data_warehouse/Lab04.ipynb): more specifically with the concepts of data cubes, data cube measures, typical OLAP operations, and data cube computation
 
-    - Classification and clustering: based on the MNIST handwritten digits dataset creats the following models to predict the digit from 0 to 9 （folder:ml_knn_kmeans)
+    - [Classification and Clustering](https://github.com/dandi0220/data-science-portfolio/blob/main/ml_knn_kmeans/Lab05.ipynb): based on the MNIST handwritten digits dataset creats the following models to predict the digit from 0 to 9
         - create a KNN classifier with gridsearchcv for 5-fold cross validation
         - creat a K-Means Clustering model
 
-    -  Association Analysis: using a simple supermarket transaction records example to explore Apriori Algorithm, support threshold,  Kulczynski measure and imbalance ratio (folder:association_analysis)
+    -  [Association Analysis](https://github.com/dandi0220/data-science-portfolio/blob/main/association_analysis/association_analysis.ipynb): using a simple supermarket transaction records example to explore Apriori Algorithm, support threshold,  Kulczynski measure and imbalance ratio
 
-    - Outlier Detection: (folder: outlier_detection)
+    - [Outlier Detection](https://github.com/dandi0220/data-science-portfolio/blob/main/outlier_detection/Lab07.ipynb)
         - using parametric methods - Mahalanobis distance to detect anomalous changes in the daily closing prices of various stocks based on a given stock csv file dataset. This approach assumes that the majority of the data instances are governed by some well-known probability distribution, e.g. a Gaussian distribution. Outliers can then be detected by seeking for observations that do not fit the overall distribution of the data.
         - using proximity-based approaches: use a KNN model, we apply the distance-based approach with k=4 to identify the anomalous trading days from the stock market data. 
         - using classification-based methods: here, we will work with a different dataset on house prices. Use an one-class SVM classifier to detect outliers. When modeling one class, the algorithm captures the density of the majority class and classifies examples on the extremes of the density function as outliers.
     
-    - Web Scraping: working on data extraction from the web using Python's Beautiful Soup module, tasks including: (folder:web_scraping)
+    - [Web Scraping](https://github.com/dandi0220/data-science-portfolio/blob/main/web_scraping/Lab08.ipynb): working on data extraction from the web using Python's Beautiful Soup module, tasks including:
         - converting an html table into a Pandas dataframe
         - scraping URLs
-    - Text Mining and Timeseries Mining: 
+
+    - [Text Mining and Timeseries Mining](https://github.com/dandi0220/data-science-portfolio/blob/main/time_series/Lab09.ipynb): 
         - text mining: use tf-idf and k-means clustering algorithm to group Wikipedia articles into different cluter groups
         - timeseries mining: 
             - trailing moving average smoothing, 

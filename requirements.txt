@@ -1,0 +1,11 @@
+scikit-learn
+pandas
+matplotlib
+seaborn
+cubes
+sqlalchemy==1.3.9
+mlxtend
+bs4
+urllib
+python-crfsuite
+nltk

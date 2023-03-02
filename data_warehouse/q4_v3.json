@@ -1,0 +1,40 @@
+{
+	"dimensions":[
+		{"name":"age"},
+		{"name":"region"},
+		{"name":"online_shopper"}
+	],
+	"cubes":[
+	    {
+			"name": "cty_income",
+			"dimensions": ["age","region","online_shopper"],
+			"measures":[{"name":"income", "label":"Income"}],
+			"aggregates":[
+				{
+					"name": "income_total",
+					"function": "sum",
+					"measure": "income"
+				},
+				{
+					"name": "income_max",
+					"function": "max",
+					"measure": "income"
+				},
+				{
+					"name": "income_min",
+					"function": "min",
+					"measure": "income"
+				},	
+				{
+					"name": "income_average",
+					"function": "avg",
+					"measure": "income"
+				},
+        {
+          "name": "record_count",
+          "function": "count"
+        }
+			]
+		}	
+    ]
+}

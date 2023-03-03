@@ -49,7 +49,7 @@ pip -r requirements.txt
         - discretisation
         - principal component analysis
 
-    - ### [Data exploration and data visualisation](https://github.com/dandi0220/data-science-portfolio/blob/main/data_vis/Lab03.ipynb): 
+    - ### [Data exploration and data visualisation](https://github.com/dandi0220/data-science-portfolio/blob/main/data_vis/Lab03.ipynb) 
         - pre-processing features of the dataset
         - data summarization
         - data visualization: table, histograms, pie charts, box plots, scatter plots, distance matrices
@@ -71,7 +71,7 @@ pip -r requirements.txt
         - converting an html table into a Pandas dataframe
         - scraping URLs
 
-    - ### [Text Mining and Timeseries Mining](https://github.com/dandi0220/data-science-portfolio/blob/main/time_series/Lab09.ipynb): 
+    - ### [Text Mining and Timeseries Mining](https://github.com/dandi0220/data-science-portfolio/blob/main/time_series/Lab09.ipynb) 
         - text mining: use tf-idf and k-means clustering algorithm to group Wikipedia articles into different cluter groups
         - timeseries mining: 
             - trailing moving average smoothing, 
@@ -86,7 +86,7 @@ pip -r requirements.txt
         - explore ways to overcome overfitting problems by experimenting with the order of a polynomial model from 1 to 10, and adding regularisation parameter
 
     - ### [Classification Experiment I](https://github.com/dandi0220/data-science-portfolio/blob/main/ml_classification/Lab05.ipynb) 
-        - create explore linear classifier,  which produces decision regions separated by linear boundaries
+        - create and explore linear classifier,  which produces decision regions separated by linear boundaries
         - create a logistic regression classifier, which uses the logistic function to create a notion of classifier "certainty"
         - optimisation with gradient descent
     - ### [Classification Experiemnt II](https://github.com/dandi0220/data-science-portfolio/blob/main/ml_classification/Lab06.ipynb): use the well-known Iris dataset to build and analyse the performance of multi-class classifiers
